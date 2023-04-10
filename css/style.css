@@ -15,7 +15,47 @@
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+}
+
+header {
+    width: 1440px;
+    height: 79px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header img {
+    width: 61.09px;
+    height: 19px;
+    margin: 30px 50px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin:0px 50px;
+    gap: 68px;
+}
+
+header li:hover {
+    height: 2px;
+    background: #0065FC;
+}
+
+header a {
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    padding-top: 16px;
+    font-size: 16px;
+}
+
+header a:hover {
+    color: #0065FC;
 }
 
 .main-container {
