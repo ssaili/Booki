@@ -472,6 +472,8 @@ header a:hover {
         .search-button {
             min-width: 49px;
             border-radius: 15px;
+            position: relative;
+            right: 10px;
         }
 
         .desktop-version {
