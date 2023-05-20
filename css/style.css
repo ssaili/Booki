@@ -96,8 +96,13 @@ header ul {
     gap: 68px;
 }
 
+header li {
+    padding: 2px 0px;
+}
+
 header li:hover {
     border-top: 2px solid #0065FC;
+    padding: 0px;
 }
 
 header a {
